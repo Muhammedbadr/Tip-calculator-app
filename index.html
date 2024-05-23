@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Calculator app</title>
+  <link rel="stylesheet" href="/STYLE/style.css">
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="calculator">
+      <div class="title">
+        <div class="calc">calc</div>
+        <div class="color">
+          <p>THEME</p>
+          <div class="btn">
+            <div class="one_tow_three">
+              <label for="theme1">1</label>
+              <label for="theme2">2</label>
+              <label for="theme3">3</label>
+            </div>
+            <div class="bg-color">
+              <div class="btn_change_color">
+                <button id="theme1"></button>
+                <button id="theme2"></button>
+                <button id="theme3"></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="resalt">
+        <input class="resalt-practical" type="text" value="0" id="display" readonly>
+      </div>
+      <div class="numbers">
+        <div class="one_to_zero_numbers">
+          <button value="7">7</button>
+          <button value="8">8</button>
+          <button value="9">9</button>
+          <button value="DEL" class="del">DEL</button>
+          <button value="4">4</button>
+          <button value="5">5</button>
+          <button value="6">6</button>
+          <button value="+">+</button>
+          <button value="1">1</button>
+          <button value="2">2</button>
+          <button value="3">3</button>
+          <button value="-">-</button>
+          <button value=".">.</button>
+          <button value="0">0</button>
+          <button value="/">/</button>
+          <button value="*">x</button>
+        </div>
+        <div class="reset_eqaul">
+          <button value="Reset">Reset</button>
+          <button value="=">=</button>
+        </div>
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </div>
+  <script src="/script.js"></script>
+</body>
+</html>
